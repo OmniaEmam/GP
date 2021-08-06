@@ -1,0 +1,56 @@
+﻿@model NewGP.ViewModels.AdminSendVM
+@{
+    ViewBag.Title = "Admin Mailing Form";
+}
+<br />
+<h2 style="color: black; font-family: 'Poppins'; font-size: 60px; text-align-last: center;">Admin Mailing Form</h2>
+
+<div class="container contact-form">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group" style="color:black">
+                @Html.LabelFor(model => model.Subject, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group" style="color:black">
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group" style="color:black">
+                @Html.LabelFor(model => model.Message, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextAreaFor(model => model.Message, htmlAttributes: new { @class = "form-control", rows = "5" })
+                    @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <br />
+            <div class="text-center">
+                <button type="submit" class="btn btn-default btn-lg btn-warning">Send Mail</button>
+            </div>
+        </div>
+    }
+    <div class="col-2">
+        <button class="brn btn-warning">@Html.ActionLink("Back to list", "Index", "Admin")</button>
+    </div>
+
+
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+
+</div>

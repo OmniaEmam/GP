@@ -1,0 +1,175 @@
+﻿@model NewGP.Models.findpeople
+
+@{
+    ViewBag.Title = "Listfound";
+   
+}
+<br />
+<h2 style="color: black; font-family: 'Poppins'; font-size: 100px; text-align-last: center;">Details Of</h2>
+
+<div>
+    <h4 style="color:black; font-family:'Poppins'; font-size:50px; text-align-last:center;"> @Html.DisplayFor(model => model.Firstname) @Html.DisplayFor(model => model.Lastname) </h4>
+    <hr style="border-width:medium; width:1170px" />
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="img-circle" height="270" width="250" alt="Avatar" src="@Url.Content(Model.Image)">
+                <hr style="border-width:medium; width:150px" />
+
+                <h4 style="color:black;"><span class="badge">1</span> Comments :</h4>
+
+                <div class="row" , style="color:black;">
+                    <div class="col-sm-3 text-center">
+                        <img src="~/Content/Image/5.png" class="img-circle" height="40" width="40" alt="Avatar">
+                    </div>
+                    <div class="col-sm-10">
+                        <h5>John Row <small style="color:darkgray">Apr 25, 2021, 8:25 PM</small></h5>
+                        <p>I think i saw him in the taxi with old women </p>
+                        <br>
+                        <h5><span class="badge">1</span> Reply:</h5>
+                        <div class="row">
+                            <div class="col-sm-2 text-center">
+                                <img src="~/Content/Image/4.png" class="img-circle" height="35" width="35" alt="Avatar">
+                            </div>
+                            <div class="col-xs-10">
+                                <h5>Nested Bro <small style="color:darkgray">Apr 25, 2021, 8:28 PM</small></h5>
+                                <p>Me too! WOW!</p>
+                                <br />
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 style="color:black">Leave a Comment:</h4>
+                <form role="form">
+                    <div class="form-group">
+                        <textarea class="form-control " rows="2" required></textarea>
+                    </div>
+                    <br />
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+            <div class="table-responsive col-9" style="color:black;">
+                <table class="table">
+                    <thead style="font-size: 25px;">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Questions</th>
+                            <th scope="col">Anwsers</th>
+                        </tr>
+                    </thead>
+                    <tbody style="font-size: 18px;">
+                        <tr>
+                            <th scope="row">1</th>
+                            <td> @Html.DisplayNameFor(model => model.Firstname)</td>
+                            <td>@Html.DisplayFor(model => model.Firstname)</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>@Html.DisplayNameFor(model => model.Lastname)</td>
+                            <td>@Html.DisplayFor(model => model.Lastname)</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>@Html.DisplayNameFor(model => model.Age)</td>
+                            <td>@Html.DisplayFor(model => model.Age)</td>
+
+                        </tr>
+
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>@Html.DisplayNameFor(model => model.Dateoffound) </td>
+                            <td> @Html.DisplayFor(model => model.Dateoffound) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">5</th>
+                            <td> @Html.DisplayNameFor(model => model.Ismale) </td>
+                            <td> @Html.DisplayFor(model => model.Ismale) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">6</th>
+                            <td> @Html.DisplayNameFor(model => model.Country) </td>
+                            <td> @Html.DisplayFor(model => model.Country) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">7</th>
+                            <td> @Html.DisplayNameFor(model => model.city) </td>
+                            <td> @Html.DisplayFor(model => model.city) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">8</th>
+                            <td> @Html.DisplayNameFor(model => model.placefound) </td>
+                            <td> @Html.DisplayFor(model => model.placefound) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">9</th>
+                            <td> @Html.DisplayNameFor(model => model.tvcc) </td>
+                            <td> @Html.DisplayFor(model => model.tvcc) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">10</th>
+                            <td> @Html.DisplayNameFor(model => model.PersonFeature) </td>
+                            <td> @Html.DisplayFor(model => model.PersonFeature) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">11</th>
+                            <td> @Html.DisplayNameFor(model => model.DescripClothes) </td>
+                            <td> @Html.DisplayFor(model => model.DescripClothes) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">12</th>
+                            <td> @Html.DisplayNameFor(model => model.story) </td>
+                            <td>  @Html.DisplayFor(model => model.story) </td>
+                        </tr>
+
+                     
+                    </tbody>
+                </table>
+                <style>
+                    #map {
+                        height: 400px;
+                        width: 700px
+                    }
+                </style>
+                <div class="row">
+                    <div id="map"></div>
+                    <script>
+        let map;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: 30.044420, lng: 31.235712 },
+                zoom: 8,
+            });
+        }
+                    </script>
+                    <script async
+                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfOARclFNo1UERzs4u7MBoWVBcrssYkv0&callback=initMap">
+                    </script>
+                </div>
+            </div>
+
+
+        </div>
+        <br /><br />
+
+              <p>
+                  <button class="btn btn-default">@Html.ActionLink("Update", "Edit", new { id = Model.id }) </button>|
+                  <button class="btn btn-default">@Html.ActionLink("Delete", "Delete", new { id = Model.id }) </button>|
+                  <button class="btn btn-default">@Html.ActionLink("Returned", "Index", "Returned") </button>|
+                  <button class="btn btn-default">@Html.ActionLink("Back to List", "Listfound")</button>
+              </p>
+    </div>
+</div>

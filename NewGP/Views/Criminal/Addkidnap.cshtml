@@ -1,0 +1,90 @@
+﻿@model NewGP.Models.Kidnap
+
+@{
+    ViewBag.Title = "Addkidnap";
+    
+
+}
+<br />
+<br />
+
+<h2 style="color: black; font-family: 'Poppins'; font-size: 60px; text-align-last: center;">Add kidnapping Crime</h2>
+
+@using (Html.BeginForm("Addkidnap", "Criminal", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal" , style="color:black; align-content:center">
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ismale, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.RadioButtonFor(model => model.ismale, true)
+            <span>Male</span>
+
+            @Html.RadioButtonFor(model => model.ismale, false)
+            <span>Female</span>
+        </div>
+    </div>
+    <br />
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Aboutacciedance, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Aboutacciedance, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Aboutacciedance, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.placehappend, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.placehappend, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.placehappend, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.image, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            <input type="file" required="required" id="file" name="file" />
+            @Html.ValidationMessageFor(model => model.image, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.cctv, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            <div class="checkbox">
+                @Html.EditorFor(model => model.cctv)
+                @Html.ValidationMessageFor(model => model.cctv, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+    <br />
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input  type="submit" value="Submit" class="btn btn-warning btn-lg" style="margin-left:50%" />
+        </div>
+    </div>
+</div>
+}
+
+<button class="btn btn-default">@Html.ActionLink("Back to List", "Listkidnap", "Criminal")</button>

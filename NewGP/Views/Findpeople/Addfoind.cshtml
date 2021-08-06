@@ -1,0 +1,153 @@
+﻿@model NewGP.Models.findpeople
+
+@{
+    ViewBag.Title = "Addfoind";
+
+}
+
+<br />
+<br />
+
+<h2 style="color: black; font-family: 'Poppins'; font-size: 60px; text-align-last: center;">Add Found Person</h2>
+
+@using (Html.BeginForm("Addfoind", "Findpeople", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal" , style="color:black; align-content:center">
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group" style="text-align:left">
+        @Html.LabelFor(model => model.Firstname, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Firstname, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Firstname, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.Lastname, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Lastname, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Lastname, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.Dateoffound, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Dateoffound, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Dateoffound, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            <input type="file" required="required" id="file" name="file" />
+            @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.Age, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Age, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Age, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.Ismale, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.RadioButtonFor(model => model.Ismale, true)
+            <span>Male</span>
+
+            @Html.RadioButtonFor(model => model.Ismale, false)
+            <span>Female</span>
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.placefound, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.placefound, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.placefound, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.current, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.current, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.current, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.Country, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Country, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Country, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.city, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.city, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.city, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.tvcc, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            <div class="custom-control custom-checkbox">
+                @Html.EditorFor(model => model.tvcc)
+                @Html.ValidationMessageFor(model => model.tvcc, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.PersonFeature, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.PersonFeature, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.PersonFeature, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.DescripClothes, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.DescripClothes, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.DescripClothes, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(model => model.story, htmlAttributes: new { @class = "control-label col-md-2", @style = "float: left; text-align: left; font-size:15px" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.story, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.story, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <br />
+
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Submit" class="btn btn-warning" style="margin-left:50%" />
+        </div>
+    </div>
+</div>
+}
+
+<button class="btn btn-default">@Html.ActionLink("Back to List", "Listfound", "Findpeople")</button>

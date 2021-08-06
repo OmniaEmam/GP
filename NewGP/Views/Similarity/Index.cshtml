@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<h2 style="color: black; font-family: 'Poppins'; font-size: 60px; text-align-last: center;">Search By Image</h2>
+<hr />
+<br />
+<br />
+<h2 style="color: black; font-family: 'Poppins'; font-size: 30px; text-align-last: left;">Uploud the photo Of the person that you want to search please</h2>
+<br />
+<br />
+
+@using (Html.BeginForm("Index", "Similarity", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<div>
+
+    <label>Image One</label> @Html.TextBox("file1", "", new { type = "file" }) <br />
+    <br />
+    <label>Image Two </label> @Html.TextBox("file2", "", new { type = "file" }) <br />
+    <br />
+    <input class="btn btn-warning" type="submit" value="Upload" />
+    <br />
+    @ViewBag.Message
+    <br />
+    <br />
+    <h2 style="color: black; font-family: 'Poppins'; font-size: 30px; text-align-last: left;">Result will appear here soon</h2>
+    <h1>@ViewBag.u</h1>
+   
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+</div>
+}
+
+
+

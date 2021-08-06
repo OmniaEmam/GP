@@ -1,0 +1,30 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=fffffffe
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "VMware ESXi 6.0-s001.vmdk"
+RW 8323072 SPARSE "VMware ESXi 6.0-s002.vmdk"
+RW 8323072 SPARSE "VMware ESXi 6.0-s003.vmdk"
+RW 8323072 SPARSE "VMware ESXi 6.0-s004.vmdk"
+RW 8323072 SPARSE "VMware ESXi 6.0-s005.vmdk"
+RW 8323072 SPARSE "VMware ESXi 6.0-s006.vmdk"
+RW 8323072 SPARSE "VMware ESXi 6.0-s007.vmdk"
+RW 8323072 SPARSE "VMware ESXi 6.0-s008.vmdk"
+RW 8323072 SPARSE "VMware ESXi 6.0-s009.vmdk"
+RW 8323072 SPARSE "VMware ESXi 6.0-s010.vmdk"
+RW 655360 SPARSE "VMware ESXi 6.0-s011.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "5221"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "aabb481b1cf576b0d2758019fffffffe"
+ddb.uuid = "60 00 C2 92 e2 21 80 5a-f0 f8 09 19 05 60 8a 05"
+ddb.virtualHWVersion = "13"

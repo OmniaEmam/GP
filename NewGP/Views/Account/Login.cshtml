@@ -1,0 +1,165 @@
+﻿@model NewGP.ViewModels.LoginVM
+
+@{
+    ViewBag.Title = "Login";
+}
+<link rel="stylesheet" href="~/Content/Site.css" />
+
+
+
+<head>
+
+
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/Content/Login/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/Login/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/Login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/Login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/Login/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/Login/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/Login/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/Login/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/Login/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/Login/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/Login/css/main.css">
+    <!--===============================================================================================-->
+</head>
+<script src="~/Content/Loginvendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Content/Login/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Content/Loginvendor/bootstrap/js/popper.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Content/Loginvendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Content/Loginvendor/daterangepicker/moment.min.js"></script>
+<script src="~/Content/Loginvendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+<script src="~/Content/Loginvendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+<script src="~/Content/Loginjs/main.js"></script>
+
+
+<br />
+<br />
+<br />
+
+<body>
+
+    <div class="row">
+
+        <div class="col-md-1">
+            <img src="~/Content/Image/LoginLow.jpg" style="height:500px; width:500px;" />
+        </div>
+
+
+
+        <div class="col-lg-11">
+            <div class="limiter">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+
+                    <form class="login100-form validate-form">
+                        <span class="login100-form-title p-b-43">
+                            <bold>Login to continue</bold>
+                        </span>
+
+                        <div>
+
+                            <h4 class="text-danger">@ViewBag.InvaildMessage</h4>
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+                            <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+
+                                @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "input100", placeholder = "", type = "text" } })
+                                <span class="focus-input100"></span>
+                                <span class="label-input100">Email</span>
+                                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+
+                            </div>
+
+                            <div class="wrap-input100 validate-input" data-validate="Password is required">
+
+                                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "input100", placeholder = "", type = "password" } })
+                                <span class="focus-input100"></span>
+                                <span class="label-input100">Password</span>
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+                            </div>
+
+                            <div class="flex-sb-m w-full p-t-3 p-b-32">
+                                <div class="contact100-form-checkbox">
+                                    <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                                    <label class="label-checkbox100" for="ckb1">
+                                        Remember me
+                                    </label>
+                                </div>
+
+                                <div>
+                                    <a href="#" class="txt1">
+                                        Forgot Password?
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div class="container-login100-form-btn">
+                                <button class="login100-form-btn" type="submit">
+                                    Login
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="text-center p-t-46 p-b-20">
+                            <span class="txt2">
+                                or sign up using
+                            </span>
+                        </div>
+
+                        <div class="login100-form-social flex-c-m">
+                            <a href="#" class="login100-form-social-item flex-c-m bg1 m-r-5">
+                                <i class="fa fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+
+                            <a href="#" class="login100-form-social-item flex-c-m bg2 m-r-5">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+
+                            <a href="#" class="login100-form-social-item flex-c-m bg3 m-r-5">
+                                <i class="fa fa-google" aria-hidden="true"></i>
+                            </a>
+                        </div>
+
+                    </form>
+
+
+                }
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

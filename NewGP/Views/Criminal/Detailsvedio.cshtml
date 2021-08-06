@@ -1,0 +1,55 @@
+﻿
+@model NewGP.Models.Crimesvidio
+
+@{
+    ViewBag.Title = "Detailsvedio";
+}
+
+<h2>Detailsvedio</h2>
+
+<div>
+    <h4>Crimesvidio</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Vname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vfile)
+        </dt>
+
+        <dd>
+            <div class="vedio-frame">
+                <video style="width:250px; height:150px" controls>
+                    <source src="@Url.Content(Model.Vfile)" type="video/mp4" />
+                </video>
+            </div>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.comment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.comment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id })|
+    @Html.ActionLink("Back to List", "Index")
+</p>

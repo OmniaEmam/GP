@@ -1,0 +1,102 @@
+﻿@model IEnumerable<NewGP.Models.findpeople>
+
+@{
+    ViewBag.Title = "SearchInDetailes";
+}
+<br />
+<br />
+<h2 style="color: black; font-family: 'Poppins'; font-size: 60px; text-align-last: center;">Search In Detailes</h2>
+<br />
+<br />
+@using (Html.BeginForm("SearchInDetailes", "Findpeople", FormMethod.Get))
+{<div class="row">
+        <div class="col-2">
+            <b style="color:black">First Name</b>
+            <br />
+            @Html.TextBox("searchbyFN")
+            <br />
+        </div>
+
+        <div class="col-2">
+            <b style="color:black">Last Name</b>
+            <br />
+            @Html.TextBox("searchbyLN")
+            <br />
+        </div>
+        <div class="col-2">
+            <b style="color:black">City</b>
+            <br />
+            @Html.TextBox("searchbycity")
+            <br />
+        </div>
+        <div class="col-2">
+            <b style="color:black">Country</b>
+            <br />
+            @Html.TextBox("searchbycountry")
+            <br />
+        </div>
+        <div class="col-2">
+            <b style="color:black">Place Found</b>
+            <br />
+            @Html.TextBox("searchbyplacefound")
+            <br />
+        </div>
+        <br />
+        <br />
+        <br />
+
+        <input class="btn btn-warning" style="width:150px; height:50px; margin:auto" type="submit" value="search" />
+        <br />
+    </div>
+}
+<br />
+<br />
+<br />
+<table class="table" style="color:black">
+    <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Place miss</th>
+            <th>Date of missing</th>
+            <th>Clothes Description</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        @*@if (Model.Count == 0 )
+            {
+                <tr>
+                    <td colspan="7" style="color:red">
+                        No Match
+                    </td>
+                </tr>
+            }
+            else
+            { *@
+
+        @foreach (var item in Model)
+        {
+            <tr style="color:black">
+                <td>@item.Firstname</td>
+                <td>@item.Lastname</td>
+                <td>@item.city</td>
+                <td>@item.Country</td>
+                <td>@item.placefound</td>
+                <td>@item.Dateoffound</td>
+                <td>@item.DescripClothes</td>
+                <td>@item.Ismale</td>
+                <td>@item.Age</td>
+
+            </tr>
+        }
+
+    </tbody>
+</table>
+<br />
+<br />
+<br />
+

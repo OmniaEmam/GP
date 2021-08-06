@@ -1,0 +1,62 @@
+﻿@model IEnumerable<NewGP.Models.findpeople>
+@using Microsoft.AspNet.Identity
+
+
+@{
+    ViewBag.Title = "Listfound";
+
+}
+<br />
+<br />
+<br />
+
+<h2 style="color: black; font-family: 'Poppins'; font-size: 60px; text-align-last: center;">List Of Found People</h2>
+<hr />
+
+<button class="btn btn-warning">@Html.ActionLink("Add Found Person Form", "Addfoind") </button>
+<br />
+<br />
+
+
+<section id="values" class="values">
+
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col">
+
+                    <div class="box" data-aos="fade-up" data-aos-delay="400">
+
+
+                        <img class="img-circle" height="190" width="190" alt="Avatar" src="@Url.Content(item.Image)" />
+                        <div>
+                            <div class="card-body">
+                                <h2 style="color:black; font-size:20px ">@Html.DisplayFor(modelItem => item.Firstname) @Html.DisplayFor(modelItem => item.Lastname)</h2>
+                                <p class="card-text" , style="color:black"><b>Date Of Missing : </b>@Html.DisplayFor(modelItem => item.Dateoffound)</p>
+                                <button class="btn btn-default">@Html.ActionLink("Details", "Details", new { id = item.id })</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            }
+        </div>
+    </div>
+</section>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="Scripts/bootstrap.bundle.js"></script>
+<script src="Scripts/aos.js"></script>
+<script src="Scripts/validate.js"></script>
+<script src="Scripts/swiper-bundle.min.js"></script>
+<script src="Scripts/purecounter.js"></script>
+<script src="Scripts/isotope.pkgd.min.js"></script>
+<script src="Scripts/glightbox.min.js"></script>
+
+<!-- Template Main JS File -->
+<script src="Scripts/main.js"></script>
+
+
+

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<NewGP.Models.User>
+
+
+@{
+    ViewBag.Title = "SearchUser";
+}
+<br />
+<br />
+
+<h2 style="color: black; font-family: 'Poppins'; font-size: 60px; text-align-last: center;">SearchUser</h2>
+
+@using (Html.BeginForm("search", "User", FormMethod.Get))
+{
+    @Html.TextBox("search")
+    <input type="submit" value="search" />
+}
+
+<table class="table" style="color:black">
+    <thead>
+        <tr>
+            <th>User name</th>
+            <th>Is Male</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @*@if (Model.Count == 0 )
+            {
+                <tr>
+                    <td colspan="7" style="color:red">
+                        No Match
+                    </td>
+                </tr>
+            }
+            else
+            { *@
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Username</td>
+                <td>@item.Ismale</td>
+                <td>@item.Brithdate</td>
+                <td>@item.city</td>
+                <td>@item.Country</td>
+                <td>@item.Email</td>
+            </tr>
+        }
+        
+    </tbody>
+</table>
+<div class="col-2">
+    <button class="brn btn-warning">@Html.ActionLink("Back to list", "Index", "Admin")</button>
+</div>

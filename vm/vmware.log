@@ -1,0 +1,440 @@
+2021-05-23T03:46:13.448+02:00| vmx| I125: Log for VMware Workstation pid=15988 version=14.0.0 build=build-6661328 option=Release
+2021-05-23T03:46:13.448+02:00| vmx| I125: The process is 64-bit.
+2021-05-23T03:46:13.448+02:00| vmx| I125: Host codepage=windows-65001 encoding=UTF-8
+2021-05-23T03:46:13.448+02:00| vmx| I125: Host is Windows 10, 64-bit  (Build 19041)
+2021-05-23T03:46:13.383+02:00| vmx| I125: VTHREAD initialize main thread 1 "vmx" host id 13992
+2021-05-23T03:46:13.388+02:00| vmx| I125: LOCALE UTF-8 -> NULL User=409 System=809
+2021-05-23T03:46:13.388+02:00| vmx| I125: Msg_SetLocaleEx: HostLocale=UTF-8 UserLocale=NULL
+2021-05-23T03:46:13.393+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.393+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware\VMware Workstation): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.401+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.401+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware\VMware Workstation): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.401+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.401+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware\VMware Workstation): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.401+02:00| vmx| I125: DictionaryLoad: Cannot open file "C:\Users\dina\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2021-05-23T03:46:13.401+02:00| vmx| I125: Msg_Reset:
+2021-05-23T03:46:13.401+02:00| vmx| I125: [msg.dictionary.load.openFailed] Cannot open file "C:\Users\dina\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2021-05-23T03:46:13.401+02:00| vmx| I125: ----------------------------------------
+2021-05-23T03:46:13.401+02:00| vmx| I125: ConfigDB: Failed to load C:\Users\dina\AppData\Roaming\VMware\config.ini
+2021-05-23T03:46:13.401+02:00| vmx| I125: OBJLIB-LIB: Objlib initialized.
+2021-05-23T03:46:13.401+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.401+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware\VMware Workstation): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.401+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.401+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware\VMware Workstation): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.405+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.405+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware\VMware Workstation): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.405+02:00| vmx| I125: DictionaryLoad: Cannot open file "C:\Users\dina\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2021-05-23T03:46:13.405+02:00| vmx| I125: [msg.dictionary.load.openFailed] Cannot open file "C:\Users\dina\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2021-05-23T03:46:13.405+02:00| vmx| I125: PREF Optional preferences file not found at C:\Users\dina\AppData\Roaming\VMware\config.ini. Using default values.
+2021-05-23T03:46:13.405+02:00| vmx| I125: UUID: SMBIOS UUID is reported as 'dc 07 b0 89 b6 30 11 e8-a4 c3 f4 39 09 cd 9c c8'.
+2021-05-23T03:46:13.405+02:00| vmx| I125: FILE: FileLockDynaLink: Further process validation tools are: available
+2021-05-23T03:46:13.440+02:00| vmx| I125: lib/ssl: OpenSSL using FIPS_drbg for RAND
+2021-05-23T03:46:13.440+02:00| vmx| I125: lib/ssl: protocol list tls1.2
+2021-05-23T03:46:13.440+02:00| vmx| I125: lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2021-05-23T03:46:13.440+02:00| vmx| I125: lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2021-05-23T03:46:13.440+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.440+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.445+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.445+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.445+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\ProgramData\VMware): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.448+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.448+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users\dina): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.448+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users\dina\AppData): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.448+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users\dina\AppData\Local): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.448+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users\dina\AppData\Local\Temp): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.448+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users\dina\AppData\Local\Temp\vmware-dina): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.448+02:00| vmx| I125: Hostname=dinamohsen
+2021-05-23T03:46:13.453+02:00| vmx| I125: IP=fe80::f9b4:7e11:180e:e682%16
+2021-05-23T03:46:13.453+02:00| vmx| I125: IP=fe80::39ee:95b1:f1c7:298f%19
+2021-05-23T03:46:13.453+02:00| vmx| I125: IP=169.254.230.130
+2021-05-23T03:46:13.453+02:00| vmx| I125: IP=192.168.1.7
+2021-05-23T03:46:13.453+02:00| vmx| I125: IP=fd64:6d6c:e98c:8f00:75eb:5a41:6679:bc3c
+2021-05-23T03:46:13.453+02:00| vmx| I125: IP=fd64:6d6c:e98c:8f00:39ee:95b1:f1c7:298f
+2021-05-23T03:46:13.488+02:00| vmx| I125: System uptime 84193326011 us
+2021-05-23T03:46:13.488+02:00| vmx| I125: Command line: "D:\VMware\x64\vmware-vmx.exe" "-T" "querytoken" "-s" "vmx.stdio.keep=TRUE" "-#" "product=1;name=VMware Workstation;version=14.0.0;buildnumber=6661328;licensename=VMware Workstation;licenseversion=14.0;" "-@" "pipe=\\.\pipe\vmxc269425857629726;msgs=ui" "D:\download\NewGP\vm\VMware ESXi 6.0.vmx"
+2021-05-23T03:46:13.488+02:00| vmx| I125: Msg_SetLocaleEx: HostLocale=UTF-8 UserLocale=NULL
+2021-05-23T03:46:13.506+02:00| vmx| I125: WQPoolAllocPoll : pollIx = 1, signalHandle = 776
+2021-05-23T03:46:13.506+02:00| vmx| I125: WQPoolAllocPoll : pollIx = 2, signalHandle = 768
+2021-05-23T03:46:13.506+02:00| vmx| I125: VigorTransport listening on fd 856
+2021-05-23T03:46:13.506+02:00| vmx| I125: Vigor_Init 1
+2021-05-23T03:46:13.506+02:00| vmx| I125: Connecting 'ui' to pipe '\\.\pipe\vmxc269425857629726' with user '(null)'
+2021-05-23T03:46:13.510+02:00| vmx| I125: VMXVmdb: Local connection timeout: 60000 ms.
+2021-05-23T03:46:13.557+02:00| vmx| I125: VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2021-05-23T03:46:13.557+02:00| vmx| I125: Vix: [13992 mainDispatch.c:490]: VMAutomation: Initializing VMAutomation.
+2021-05-23T03:46:13.557+02:00| vmx| I125: Vix: [13992 mainDispatch.c:746]: VMAutomationOpenListenerSocket() listening
+2021-05-23T03:46:13.572+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2021-05-23T03:46:13.572+02:00| vmx| I125: Transitioned vmx/execState/val to poweredOff
+2021-05-23T03:46:13.572+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2021-05-23T03:46:13.573+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2021-05-23T03:46:13.573+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2021-05-23T03:46:13.665+02:00| vmx| I125: IOPL_VBSRunning: VBS is set to 0
+2021-05-23T03:46:13.665+02:00| vmx| W115: Can't set WSS, error 1314
+2021-05-23T03:46:13.665+02:00| vmx| I125: VerificationOfHostParameters status 1
+2021-05-23T03:46:13.665+02:00| vmx| W115: VMX can't verify host parameters.
+2021-05-23T03:46:13.665+02:00| vmx| I125: FeatureCompat: No EVC masks.
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID vendor: GenuineIntel
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID family: 0x6 model: 0x8e stepping: 0xa
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID codename: Coffeelake-U
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID name: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000000, 0: 0x00000016 0x756e6547 0x6c65746e 0x49656e69
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000001, 0: 0x000806ea 0x00100800 0x7ffafbbf 0xbfebfbff
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000002, 0: 0x76036301 0x00f0b5ff 0x00000000 0x00c30000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000004, 0: 0x1c004121 0x01c0003f 0x0000003f 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000004, 1: 0x1c004122 0x01c0003f 0x0000003f 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000004, 2: 0x1c004143 0x00c0003f 0x000003ff 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000004, 3: 0x1c03c163 0x03c0003f 0x00001fff 0x00000006
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000004, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x11142120
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000006, 0: 0x000027f7 0x00000002 0x00000009 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000007, 0: 0x00000000 0x029c67af 0x00000000 0x9c002600
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000a, 0: 0x07300404 0x00000000 0x00000000 0x00000603
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000b, 1: 0x00000004 0x00000008 0x00000201 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 0: 0x0000001f 0x00000440 0x00000440 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 1: 0x0000000f 0x00000440 0x00000100 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 3: 0x00000040 0x000003c0 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 4: 0x00000040 0x00000400 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 8: 0x00000080 0x00000000 0x00000001 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 9: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, a: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, b: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, c: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, d: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, e: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, f: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 10: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 11: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 12: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 13: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 14: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 15: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 16: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 17: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 18: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 19: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 1a: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 1b: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 1c: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 1d: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 1e: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 1f: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 20: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 21: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 22: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 23: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 24: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 25: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 26: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 27: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 28: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 29: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 2a: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 2b: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 2c: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 2d: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 2e: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 2f: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 30: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 31: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 32: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 33: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 34: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 35: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 36: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 37: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 38: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 39: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 3a: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 3b: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 3c: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 3d: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 3e: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000d, 3f: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 0000000f, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000012, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000012, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000012, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000014, 0: 0x00000001 0x0000000f 0x00000007 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000014, 1: 0x02490002 0x003f3fff 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000015, 0: 0x00000002 0x000000a6 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 00000016, 0: 0x000007d0 0x00000fa0 0x00000064 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000121 0x2c100800
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 80000003, 0: 0x37692029 0x3535382d 0x43205530 0x40205550
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 80000004, 0: 0x382e3120 0x7a484730 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x01006040 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000100
+2021-05-23T03:46:13.675+02:00| vmx| I125: hostCPUID level 80000008, 0: 0x00003027 0x00000000 0x00000000 0x00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID differences from hostCPUID.
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[1] level 00000001, 0: 0x000806ea 0x01100800 0x7ffafbbf 0xbfebfbff
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[1] level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000001
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[1] level 0000000b, 1: 0x00000004 0x00000008 0x00000201 0x00000001
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[1] level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000001
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[2] level 00000001, 0: 0x000806ea 0x02100800 0x7ffafbbf 0xbfebfbff
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[2] level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000002
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[2] level 0000000b, 1: 0x00000004 0x00000008 0x00000201 0x00000002
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[2] level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000002
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[3] level 00000001, 0: 0x000806ea 0x03100800 0x7ffafbbf 0xbfebfbff
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[3] level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000003
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[3] level 0000000b, 1: 0x00000004 0x00000008 0x00000201 0x00000003
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[3] level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000003
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[4] level 00000001, 0: 0x000806ea 0x04100800 0x7ffafbbf 0xbfebfbff
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[4] level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000004
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[4] level 0000000b, 1: 0x00000004 0x00000008 0x00000201 0x00000004
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[4] level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000004
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[5] level 00000001, 0: 0x000806ea 0x05100800 0x7ffafbbf 0xbfebfbff
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[5] level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000005
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[5] level 0000000b, 1: 0x00000004 0x00000008 0x00000201 0x00000005
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[5] level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000005
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[6] level 00000001, 0: 0x000806ea 0x06100800 0x7ffafbbf 0xbfebfbff
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[6] level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000006
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[6] level 0000000b, 1: 0x00000004 0x00000008 0x00000201 0x00000006
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[6] level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000006
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[7] level 00000001, 0: 0x000806ea 0x07100800 0x7ffafbbf 0xbfebfbff
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[7] level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000007
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[7] level 0000000b, 1: 0x00000004 0x00000008 0x00000201 0x00000007
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID[7] level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000007
+2021-05-23T03:46:13.675+02:00| vmx| I125: CPUID Maximum Physical Address Bits supported across all CPUs: 39
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR       0x3a =                0x1
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x480 =   0xda040000000004
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x481 =       0x7f00000016
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x482 = 0xfff9fffe0401e172
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x483 =  0x1ffffff00036dff
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x484 =    0x3ffff000011ff
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x485 =         0x7004c1e7
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x486 =         0x80000021
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x487 =         0xffffffff
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x488 =             0x2000
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x489 =           0x3727ff
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x48a =               0x2e
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x48b =   0x5fbcff00000000
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x48c =      0xf0106734141
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x48d =       0x7f00000016
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x48e = 0xfff9fffe04006172
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x48f =  0x1ffffff00036dfb
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x490 =    0x3ffff000011fb
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR      0x491 =                0x1
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR 0xc0010114 =                  0
+2021-05-23T03:46:13.675+02:00| vmx| I125: Common: MSR       0xce =    0x4043df1011400
+2021-05-23T03:46:13.680+02:00| vmx| I125: VMMon_GetkHzEstimate: Calculated 1992000 kHz
+2021-05-23T03:46:13.680+02:00| vmx| I125: HOSTINFO: Host supports constant rate TSC.
+2021-05-23T03:46:13.680+02:00| vmx| I125: TSC kHz estimates: vmmon 1992000, remembered 0, osReported 2001000. Using 2001000 kHz.
+2021-05-23T03:46:13.680+02:00| vmx| I125: TSC first measured delta 181
+2021-05-23T03:46:13.680+02:00| vmx| I125: TSC min delta 181
+2021-05-23T03:46:13.680+02:00| vmx| I125: PTSC: RefClockToPTSC 0 @ 10000000Hz -> 0 @ 2001000000Hz
+2021-05-23T03:46:13.680+02:00| vmx| I125: PTSC: RefClockToPTSC ((x * 3357120922) >> 24) + -47984909397381
+2021-05-23T03:46:13.680+02:00| vmx| I125: PTSC: tscOffset -47793566166338
+2021-05-23T03:46:13.680+02:00| vmx| I125: PTSC: using TSC
+2021-05-23T03:46:13.680+02:00| vmx| I125: PTSC: hardware TSCs are synchronized.
+2021-05-23T03:46:13.680+02:00| vmx| I125: PTSC: hardware TSCs may have been adjusted by the host.
+2021-05-23T03:46:13.680+02:00| vmx| I125: PTSC: current PTSC=155554
+2021-05-23T03:46:13.680+02:00| vmx| I125: WQPoolAllocPoll : pollIx = 3, signalHandle = 1080
+2021-05-23T03:46:13.710+02:00| vmx| I125: ConfigCheck: No rules file found. Checks are disabled.
+2021-05-23T03:46:13.710+02:00| vmx| I125: changing directory to D:\download\NewGP\vm\.
+2021-05-23T03:46:13.710+02:00| vmx| I125: Config file: D:\download\NewGP\vm\VMware ESXi 6.0.vmx
+2021-05-23T03:46:13.710+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2021-05-23T03:46:13.710+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2021-05-23T03:46:13.710+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.710+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users\dina): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.710+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users\dina\AppData): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.710+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users\dina\AppData\Local): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.715+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users\dina\AppData\Local\Temp): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.715+02:00| vmx| I125: FILE: FileCreateDirectoryRetry: Non-retriable error encountered (C:\Users\dina\AppData\Local\Temp\vmware-dina): Cannot create a file when that file already exists (183)
+2021-05-23T03:46:13.715+02:00| vmx| I125: FILE: FileDeletionRetry: Non-retriable error encountered (D:\download\NewGP\vm\vmware-2.log): The system cannot find the file specified (2)
+2021-05-23T03:46:13.715+02:00| vmx| I125: FILE: FileDeletionRetry: Non-retriable error encountered (C:\Users\dina\AppData\Local\Temp\vmware-dina\vmware-vmx-15988.log): The process cannot access the file because it is being used by another process (32)
+2021-05-23T03:46:13.731+02:00| vmx| I125: VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOn without reset, soft, softOptionTimeout: 0.
+2021-05-23T03:46:13.731+02:00| vmx| I125: Tools: sending 'OS_PowerOn' (state = 3) state change request
+2021-05-23T03:46:13.731+02:00| vmx| I125: Tools: Delaying state change request to state 3.
+2021-05-23T03:46:13.731+02:00| vmx| W115: PowerOn
+2021-05-23T03:46:13.731+02:00| vmx| I125: VMX_PowerOn: VMX build 6661328, UI build 6661328
+2021-05-23T03:46:13.731+02:00| vmx| I125: HostWin32: WIN32 NUMA node 0, CPU mask 0x00000000000000ff
+2021-05-23T03:46:13.736+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2021-05-23T03:46:13.736+02:00| vmx| I125: HOST Windows version 10.0, build 19041, platform 2, ""
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT          printers.enabled = "FALSE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- NON PERSISTENT (null)
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- USER PREFERENCES C:\Users\dina\AppData\Roaming\VMware\preferences.ini
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT        pref.hostMRU.count = "1"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT        pref.hostMRU0.name = "localhost"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT        pref.hostMRU0.type = "vim"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window.count = "1"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.tab.count = "1"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.tab0.dest = ""
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.tab0.file = ""
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.tab0.type = "home"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.tab0.cnxType = "vmdb"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.tab0.focused = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.sidebar = "FALSE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.sidebar.width = "250"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.statusBar = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.tabs = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.thumbnailBar = "FALSE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.thumbnailBar.size = "100"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.thumbnailBar.view = "opened-vms"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.placement.left = "224"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.placement.top = "224"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.placement.right = "1046"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.placement.bottom = "983"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.maximized = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT         vmWizard.guestKey = "vmkernel6"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT             vmWizard.mode = "custom"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT vmWizard.installMediaType = "iso"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.ws.session.window0.tab1.cnxType = "vmdb"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT vmWizard.isoLocationMRU.count = "3"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT vmWizard.isoLocationMRU0.location = "D:\download\VMware-VMvisor-Installer-201507001-2809209.x86_64.iso"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT vmWizard.isoLocationMRU1.location = "F:\ubuntu-18.10-desktop-amd64.iso"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT  hint.vmui.showAllUSBDevs = "FALSE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT             hints.hideAll = "FALSE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT  pref.fullscreen.autohide = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.updatesVersionIgnore.numItems = "2"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.updatesVersionIgnore0.key = "free"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.updatesVersionIgnore0.value = "372dafd6-fa5a-4c9d-a906-6031c1d4793a"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT   pref.lastUpdateCheckSec = "1621732128"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.updatesVersionIgnore1.key = "paid"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT pref.updatesVersionIgnore1.value = "0d0429a8-d054-4f86-adfc-2740b2354c54"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT vmWizard.isoLocationMRU2.location = "C:\Users\dina\Downloads\ubuntu-18.04.2-desktop-amd64.iso"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- USER DEFAULTS C:\Users\dina\AppData\Roaming\VMware\config.ini
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT         authd.client.port = "902"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "27457"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.componentDownloadEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled.epoch = "27457"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT         authd.client.port = "902"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "27457"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.componentDownloadEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled.epoch = "27457"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- NONPERSISTENT
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT            vmx.stdio.keep = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT             gui.available = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- COMMAND LINE
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT            vmx.stdio.keep = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT             gui.available = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- RECORDING
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT            vmx.stdio.keep = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT             gui.available = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- CONFIGURATION D:\download\NewGP\vm\VMware ESXi 6.0.vmx 
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT            config.version = "8"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT         virtualHW.version = "13"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT        pciBridge0.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT        pciBridge4.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT     pciBridge4.virtualDev = "pcieRootPort"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT      pciBridge4.functions = "8"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT        pciBridge5.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT     pciBridge5.virtualDev = "pcieRootPort"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT      pciBridge5.functions = "8"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT        pciBridge6.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT     pciBridge6.virtualDev = "pcieRootPort"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT      pciBridge6.functions = "8"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT        pciBridge7.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT     pciBridge7.virtualDev = "pcieRootPort"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT      pciBridge7.functions = "8"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT             vmci0.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT             hpet0.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT               displayName = "VMware ESXi 6.0"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT                   guestOS = "vmkernel6"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT                     nvram = "VMware ESXi 6.0.nvram"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT virtualHW.productCompatibility = "hosted"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT        powerType.powerOff = "soft"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT         powerType.powerOn = "soft"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT         powerType.suspend = "soft"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT           powerType.reset = "soft"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT                vhv.enable = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT            tools.syncTime = "FALSE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT                  numvcpus = "2"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT                   memsize = "4096"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT          scsi0.virtualDev = "lsilogic"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT             scsi0.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT          scsi0:0.fileName = "VMware ESXi 6.0.vmdk"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT           scsi0:0.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT         ide1:0.deviceType = "cdrom-image"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT           ide1:0.fileName = "D:\download\VMware-VMvisor-Installer-201507001-2809209.x86_64.iso"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT            ide1:0.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT               usb.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT              ehci.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT  ethernet0.connectionType = "nat"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT     ethernet0.addressType = "generated"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT      ethernet0.virtualDev = "e1000"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT         ethernet0.present = "TRUE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT        extendedConfigFile = "VMware ESXi 6.0.vmxf"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT           floppy0.present = "FALSE"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- USER DEFAULTS C:\Users\dina\AppData\Roaming\VMware\config.ini 
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT         authd.client.port = "902"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "27457"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.componentDownloadEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled.epoch = "27457"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT         authd.client.port = "902"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "27457"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.componentDownloadEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled = "yes"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled.epoch = "27457"
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2021-05-23T03:46:13.736+02:00| vmx| I125: DICT          printers.enabled = "FALSE"
+2021-05-23T03:46:13.740+02:00| vmx| I125: ToolsISO: open of D:\VMware\isoimages_manifest.txt.sig failed: Could not find the file
+2021-05-23T03:46:13.740+02:00| vmx| I125: ToolsISO: Unable to read signature file 'D:\VMware\isoimages_manifest.txt.sig', ignoring.
+2021-05-23T03:46:13.740+02:00| vmx| I125: ToolsISO: Guest 'vmkernel6' not found in Tools image map file 'D:\VMware\isoimages_manifest.txt'
+2021-05-23T03:46:13.740+02:00| vmx| I125: GuestOS: GuestOS_GetToolsImageName: Failed to get Tools ISO image path.
+2021-05-23T03:46:13.740+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2021-05-23T03:46:13.740+02:00| vmx| I125: Module 'CPUIDEarly' power on failed.
+2021-05-23T03:46:13.740+02:00| vmx| I125: VMX_PowerOn: ModuleTable_PowerOn = 0
+2021-05-23T03:46:13.740+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2021-05-23T03:46:13.740+02:00| vmx| I125: Msg_Post: Error
+2021-05-23T03:46:13.740+02:00| vmx| I125: [msg.hvuser.VTDisabled] This host supports Intel VT-x, but Intel VT-x is disabled.
+2021-05-23T03:46:13.740+02:00| vmx| I125+ Intel VT-x might be disabled if it has been disabled in the BIOS/firmware settings or the host has not been power-cycled since changing this setting.
+2021-05-23T03:46:13.740+02:00| vmx| I125+ (1) Verify that the BIOS/firmware settings enable Intel VT-x and disable 'trusted execution.'
+2021-05-23T03:46:13.740+02:00| vmx| I125+ (2) Power-cycle the host if either of these BIOS/firmware settings have been changed.
+2021-05-23T03:46:13.740+02:00| vmx| I125+ (3) Power-cycle the host if you have not done so since installing VMware Workstation.
+2021-05-23T03:46:13.740+02:00| vmx| I125+ (4) Update the host's BIOS/firmware to the latest version.
+2021-05-23T03:46:13.740+02:00| vmx| I125: [msg.cpuid.legacyCPU.nohwmmu.intel] This host does not support "Intel EPT" hardware assisted MMU virtualization.
+2021-05-23T03:46:13.740+02:00| vmx| I125: [msg.moduletable.powerOnFailed] Module 'CPUIDEarly' power on failed.
+2021-05-23T03:46:13.740+02:00| vmx| I125: [msg.vmx.poweron.failed] Failed to start the virtual machine.
+2021-05-23T03:46:13.740+02:00| vmx| I125: ----------------------------------------
+2021-05-23T03:47:03.514+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2021-05-23T03:47:03.514+02:00| vmx| I125: Transitioned vmx/execState/val to poweredOff
+2021-05-23T03:47:03.514+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=0 additionalError=0
+2021-05-23T03:47:03.515+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4273]: Error VIX_E_FAIL in VMAutomation_ReportPowerOpFinished(): Unknown error
+2021-05-23T03:47:03.516+02:00| vmx| I125: Vix: [13992 mainDispatch.c:4234]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2021-05-23T03:47:03.516+02:00| vmx| I125: Transitioned vmx/execState/val to poweredOff
+2021-05-23T03:47:03.516+02:00| vmx| I125: WQPoolFreePoll : pollIx = 3, signalHandle = 1080
+2021-05-23T03:47:03.516+02:00| vmx| I125: Vix: [13992 mainDispatch.c:834]: VMAutomation_LateShutdown()
+2021-05-23T03:47:03.516+02:00| vmx| I125: Vix: [13992 mainDispatch.c:783]: VMAutomationCloseListenerSocket. Closing listener socket.
+2021-05-23T03:47:03.517+02:00| vmx| I125: Flushing VMX VMDB connections
+2021-05-23T03:47:03.517+02:00| vmx| I125: VmdbDbRemoveCnx: Removing Cnx from Db for '/db/connection/#1/'
+2021-05-23T03:47:03.517+02:00| vmx| I125: VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (0)
+2021-05-23T03:47:03.518+02:00| vmx| I125: VigorTransport_ServerDestroy: server destroyed.
+2021-05-23T03:47:03.518+02:00| vmx| I125: WQPoolFreePoll : pollIx = 2, signalHandle = 768
+2021-05-23T03:47:03.518+02:00| vmx| I125: WQPoolFreePoll : pollIx = 1, signalHandle = 776
+2021-05-23T03:47:03.522+02:00| vmx| I125: VMX exit (0).
+2021-05-23T03:47:03.522+02:00| vmx| I125: OBJLIB-LIB: ObjLib cleanup done.

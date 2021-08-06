@@ -1,0 +1,36 @@
+﻿Mayada sent Today at 12:01 AM
+@model NewGP.Models.Admin
+@{
+    ViewBag.Title = "Index";
+}
+<link rel="stylesheet" href="~/Content/Site.css" />
+<h2 style="color: black; font-family: 'Poppins'; font-size: 100px; text-align-last: center;">Welcome</h2>
+
+<div class="row">
+    <div class="col-2">
+        <button class="brn btn-warning">@Html.ActionLink("List Users", "ListUsers")</button>
+    </div>
+    <div class="col-2">
+        <button class="brn btn-warning">@Html.ActionLink("List Admins", "Listadmin")</button>
+    </div>
+    <div class="col-2">
+        <button class="brn btn-warning">@Html.ActionLink("Send Mail", "Mailing", "Admin")</button>
+    </div>
+    <div class="col-2">
+        <button class="brn btn-warning">@Html.ActionLink("Add Admin", "regist", "Admin")</button>
+    </div>
+
+</div>
+
+
+<br />
+<div class="row">
+    <div class="col-12">
+        @using (Html.BeginForm("SearchUser", "Admin", FormMethod.Post))
+
+        {
+            @Html.TextBox("search")
+            <input type="submit" value="search" style="position:center" />
+        }
+        </div>
+    </div>

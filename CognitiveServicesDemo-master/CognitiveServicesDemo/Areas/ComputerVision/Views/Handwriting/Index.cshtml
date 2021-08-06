@@ -1,0 +1,35 @@
+﻿@model HandwritingModel
+@{
+    ViewBag.Title = "Regognize handwriting";
+    var lineCounter = 0;
+}
+
+<h2>Recognize handwriting</h2>
+
+@Html.Partial("_Upload")
+<p>&nbsp;</p>
+@if (Model != null && !string.IsNullOrEmpty(Model.ImageDump))
+{
+    <img src="@Model.ImageDump" width="600" />
+
+    <h3>Texts</h3>
+
+    <ol>
+        @foreach (var line in Model.Result.Lines)
+        {
+            if(lineCounter >= Settings.ImageSquareColors.Length)
+            {
+                lineCounter = 0;
+            }
+            <li>
+            @foreach (var word in line.Words)
+            {
+                <span style="color:@Settings.ImageSquareColors[lineCounter].Name">@word.Text</span>
+            }
+            </li>
+            { 
+                lineCounter++;
+            }
+        }
+    </ol>
+}

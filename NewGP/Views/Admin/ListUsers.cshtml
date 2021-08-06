@@ -1,0 +1,79 @@
+﻿@model IEnumerable<NewGP.Models.User>
+
+@{
+    ViewBag.Title = "ListUsers";
+}
+<br />
+<br />
+
+<h2>ListUsers</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Username)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Brithdate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ismale)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Country)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.city)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Role)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Brithdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ismale)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.city)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+            <td>
+                |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "DeleteUser", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+<div class="col-2">
+    <button class="brn btn-warning">@Html.ActionLink("Back to list", "Index", "Admin")</button>
+</div>

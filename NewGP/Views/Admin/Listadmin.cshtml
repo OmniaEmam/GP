@@ -1,0 +1,69 @@
+﻿@model IEnumerable<NewGP.Models.Admin>
+
+@{
+    ViewBag.Title = "Listadmin";
+}
+<br />
+<br />
+
+<h2>Listadmin</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Username)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.adress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Role)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.adress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "UpdateAdminProfile", new { id = item.adminId }) |
+                @Html.ActionLink("Details", "Detailsadmin", new { id = item.adminId }) |
+                @Html.ActionLink("Delete", "Deleteadmin", new { id = item.adminId })
+            </td>
+        </tr>
+    }
+
+</table>
+<div class="col-2">
+    <button class="brn btn-warning">@Html.ActionLink("Back to list", "Index", "Admin")</button>
+</div>

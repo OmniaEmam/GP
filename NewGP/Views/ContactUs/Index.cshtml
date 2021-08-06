@@ -1,0 +1,112 @@
+﻿@model NewGP.ViewModels.ContactUsVM
+@{
+    ViewBag.Title = "Contact Us";
+}
+
+
+
+<section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+            <h2>Contact</h2>
+            <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+            <div class="col-lg-6">
+
+                <div class="row gy-4">
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="bi bi-geo-alt"></i>
+                            <h3>Address</h3>
+                            <p>A108 Adam Street,<br>New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="bi bi-telephone"></i>
+                            <h3>Call Us</h3>
+                            <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="bi bi-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>info@example.com<br>contact@example.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="bi bi-clock"></i>
+                            <h3>Open Hours</h3>
+                            <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6">
+                <form action="forms/contact.php" method="post" class="php-email-form">
+                    <div class="row gy-4">
+                        <div style="text-align:center;color:black;font-size:20px;" class="alert alert-primary" role="alert">
+                            @ViewBag.msg
+                        </div>
+                        <div class="container contact-form">
+                            @using (Html.BeginForm())
+                            {
+                                @Html.AntiForgeryToken()
+
+                                
+                                    <hr />
+                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    <div class="form-group" style="color:black">
+                                        @Html.LabelFor(model => model.Fullname, htmlAttributes: new { @class = "control-label col-md-2" })
+                                        <div class="col-md-10">
+                                            @Html.EditorFor(model => model.Fullname, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.Fullname, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group" style="color:black">
+                                        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                                        <div class="col-md-10">
+                                            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group" style="color:black">
+                                        @Html.LabelFor(model => model.Message, htmlAttributes: new { @class = "control-label col-md-2" })
+                                        <div class="col-md-10">
+                                            @Html.TextAreaFor(model => model.Message, htmlAttributes: new { @class = "form-control", rows = "5" })
+                                            @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+
+                                        <button type="submit" class="btn btn-default btn-lg btn-success">
+                                            @Html.ActionLink(" Send Mail", "Index", "Thanks")
+                                        </button>
+                                    </div>
+                                
+                            }
+
+
+
+                            @section Scripts {
+                                @Scripts.Render("~/bundles/jqueryval")
+                            }
+
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+</section>

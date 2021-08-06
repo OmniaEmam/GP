@@ -1,0 +1,75 @@
+﻿@model NewGP.Models.Return
+
+@{
+    ViewBag.Title = "More ";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2 style="color:white; font-family:Stencil Std, fantasy; font-size:100px; text-align-last:center;">Details Of</h2>
+
+<div>
+    <h4 style="color:white; font-family:'Berlin Sans FB'; font-size:40px; text-align-last:center;"> @Html.DisplayFor(model => model.Fname)</h4>
+    <hr style="border-width:medium; width:1170px" />
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="@Url.Content(Model.Image)" alt="no image" style="height:250px; border-image:round ;border-color:white" class="img-responsive img-circle">
+            </div>
+
+            <div class="table-responsive" style="color:white;">
+                <table class="table">
+                    <thead style="font-size: 25px;">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Questions</th>
+                            <th scope="col">Anwsers</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td> @Html.DisplayNameFor(model => model.Fname)</td>
+                            <td>@Html.DisplayFor(model => model.Fname)</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>@Html.DisplayNameFor(model => model.Lname)</td>
+                            <td>@Html.DisplayFor(model => model.Lname)</td>
+
+                        </tr>
+
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>@Html.DisplayNameFor(model => model.DateofmissOrfound) </td>
+                            <td> @Html.DisplayFor(model => model.DateofmissOrfound) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">5</th>
+                            <td> @Html.DisplayNameFor(model => model.ReturnDate) </td>
+                            <td> @Html.DisplayFor(model => model.ReturnDate) </td>
+                        </tr>
+
+
+                        <tr>
+                            <th scope="row">12</th>
+                            <td> @Html.DisplayNameFor(model => model.Returnstory) </td>
+                            <td>  @Html.DisplayFor(model => model.Returnstory) </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+
+        <div>
+            @Html.ActionLink("Home Page ", "Home", "Index")
+        </div>
+
+    </div>
+</div>

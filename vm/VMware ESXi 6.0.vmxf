@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Foundry>
+<VM>
+<VMId type="string">52 51 21 29 38 89 9b 49-9d 1f b0 cb 32 f2 ef eb</VMId>
+<ClientMetaData>
+<clientMetaDataAttributes/>
+<HistoryEventList/></ClientMetaData>
+<vmxPathName type="string">VMware ESXi 6.0.vmx</vmxPathName></VM></Foundry>

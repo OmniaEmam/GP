@@ -1,0 +1,48 @@
+﻿@model IEnumerable<NewGP.Models.Return>
+
+
+@{
+    string pageTitle = @ViewBag.Title ?? "Return";
+}
+<title>@pageTitle</title>
+
+<h2 style="color:white; font-family:Stencil Std, fantasy; font-size:100px; text-align-last:center;">List Of Return People</h2>
+
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+
+        {
+            <div class="col-sm-4">
+
+                <div class="card-body text-center">
+                    <h2 style="color:white">
+                    </h2>
+                    <div class="card" style="width:300px">
+                        <img class="img-circle" height="300" width="100" alt="Avatar" src="@Url.Content(item.Image)" style="width:100%">
+                        <div class="card-body">
+                            <h2 class="card-title" , style="color:white">
+                                @Html.DisplayFor(modelItem => item.Fname)
+                                @Html.DisplayFor(modelItem => item.Lname)
+                            </h2>
+                            <p class="card-text" , style="color:white">
+                                <b>Date Of Missing : </b>
+                                @Html.DisplayFor(modelItem => item.DateofmissOrfound)
+                            </p>
+                            <p class="card-text" , style="color:white">
+                                <b>Date Of Return : </b>
+                                @Html.DisplayFor(modelItem => item.ReturnDate)
+                            </p>
+                            <button class="btn btn-default">@Html.ActionLink("More..", "more", new { id = item.ID })</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        }
+    }
+</div>
+
+
+
